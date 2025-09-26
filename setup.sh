@@ -7,7 +7,7 @@ sudo apt-get install -y git wget curl build-essential
 
 # Clone your repo (if not already cloned by RunPod)
 if [ ! -d "myproject" ]; then
-    git clone https://github.com/USERNAME/REPO.git myproject
+    git clone https://github.com/arashk7/my_pytorch_lightning_tests.git myproject
 fi
 cd myproject
 
